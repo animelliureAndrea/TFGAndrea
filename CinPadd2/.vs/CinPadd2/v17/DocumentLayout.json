@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|c:\\users\\andrea\\desktop\\clase-20230215t092959z-001\\tfg\\cinpadd2\\cinpadd2\\botonescomunes\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\botonescomunes\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\botonescomunes\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\botonescomunes\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\botonesnocomunes\\nocomunes\\addcasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\botonesnocomunes\\nocomunes\\addcasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\botonesnocomunes\\nocomunes\\addcasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\botonesnocomunes\\nocomunes\\addcasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\pantallasusuarios\\aficionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\pantallasusuarios\\aficionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\pantallasusuarios\\aficionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\pantallasusuarios\\aficionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\pantallasusuarios\\actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\pantallasusuarios\\actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\cinpadd2\\pantallasusuarios\\actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}|CinPadd2\\CinPadd2.csproj|solutionrelative:cinpadd2\\pantallasusuarios\\actores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesComunes\\Perfil.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\BotonesComunes\\Perfil.cs",
+              "ToolTip": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesComunes\\Perfil.cs",
+              "RelativeToolTip": "CinPadd2\\BotonesComunes\\Perfil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUEAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:54:46.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Perfil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesComunes\\Perfil.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\BotonesComunes\\Perfil.cs",
+              "ToolTip": "D:\\23-24\\tfg\\CinPadd2\\CinPadd2\\BotonesComunes\\Perfil.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:54:41.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCasting.cs",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "ToolTip": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "RelativeToolTip": "CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAASwE4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:52:33.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCasting.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs",
+              "ToolTip": "D:\\23-24\\tfg\\CinPadd2\\CinPadd2\\BotonesNoComunes\\NoComunes\\AddCasting.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:52:29.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aficionados.cs",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "ToolTip": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "RelativeToolTip": "CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAEwBgBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:42:15.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Aficionados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\PantallasUsuarios\\Aficionados.cs",
+              "ToolTip": "D:\\23-24\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Aficionados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:42:10.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Actores.cs",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "ToolTip": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "RelativeToolTip": "CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAqwK0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:37:29.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Actores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Andrea\\Desktop\\Clase-20230215T092959Z-001\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "RelativeDocumentMoniker": "CinPadd2\\PantallasUsuarios\\Actores.cs",
+              "ToolTip": "D:\\23-24\\tfg\\CinPadd2\\CinPadd2\\PantallasUsuarios\\Actores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:37:17.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

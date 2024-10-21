@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D5494EE-1FD4-4BDD-A008-6AD0F96F743D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CinPadd2</RootNamespace>
+    <AssemblyName>CinPadd2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso.Designer.cs">
+      <DependentUpon>Acceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesComunes\Peliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesComunes\Peliculas.Designer.cs">
+      <DependentUpon>Peliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesComunes\Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesComunes\Perfil.Designer.cs">
+      <DependentUpon>Perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\AddCasting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\AddCasting.Designer.cs">
+      <DependentUpon>AddCasting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\AddPelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\AddPelicula.Designer.cs">
+      <DependentUpon>AddPelicula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\CastingSelec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\CastingSelec.Designer.cs">
+      <DependentUpon>CastingSelec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Criticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Criticas.Designer.cs">
+      <DependentUpon>Criticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Escenarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Escenarios.Designer.cs">
+      <DependentUpon>Escenarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Festivales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Festivales.Designer.cs">
+      <DependentUpon>Festivales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Gente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Gente.Designer.cs">
+      <DependentUpon>Gente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\EscribirGuiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\EscribirGuiones.Designer.cs">
+      <DependentUpon>EscribirGuiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Planificación.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Planificación.Designer.cs">
+      <DependentUpon>Planificación.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Productoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\Productoras.Designer.cs">
+      <DependentUpon>Productoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\VerGuiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotonesNoComunes\NoComunes\VerGuiones.Designer.cs">
+      <DependentUpon>VerGuiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaCarga.Designer.cs">
+      <DependentUpon>PantallaCarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Actores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Actores.Designer.cs">
+      <DependentUpon>Actores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Aficionados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Aficionados.Designer.cs">
+      <DependentUpon>Aficionados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Directores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Directores.Designer.cs">
+      <DependentUpon>Directores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallasUsuarios\FormGuionistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallasUsuarios\FormGuionistas.Designer.cs">
+      <DependentUpon>FormGuionistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallasUsuarios\Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tfgCinPaddDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tfgCinPaddDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acceso.resx">
+      <DependentUpon>Acceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesComunes\Peliculas.resx">
+      <DependentUpon>Peliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesComunes\Perfil.resx">
+      <DependentUpon>Perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\AddCasting.resx">
+      <DependentUpon>AddCasting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\AddPelicula.resx">
+      <DependentUpon>AddPelicula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\CastingSelec.resx">
+      <DependentUpon>CastingSelec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Criticas.resx">
+      <DependentUpon>Criticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Escenarios.resx">
+      <DependentUpon>Escenarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Festivales.resx">
+      <DependentUpon>Festivales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Gente.resx">
+      <DependentUpon>Gente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\EscribirGuiones.resx">
+      <DependentUpon>EscribirGuiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Planificación.resx">
+      <DependentUpon>Planificación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\Productoras.resx">
+      <DependentUpon>Productoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonesNoComunes\NoComunes\VerGuiones.resx">
+      <DependentUpon>VerGuiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaCarga.resx">
+      <DependentUpon>PantallaCarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallasUsuarios\Actores.resx">
+      <DependentUpon>Actores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallasUsuarios\Aficionados.resx">
+      <DependentUpon>Aficionados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallasUsuarios\Directores.resx">
+      <DependentUpon>Directores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallasUsuarios\FormGuionistas.resx">
+      <DependentUpon>FormGuionistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallasUsuarios\Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tfgCinPaddDataSet.xsc">
+      <DependentUpon>tfgCinPaddDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tfgCinPaddDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tfgCinPaddDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tfgCinPaddDataSet.xss">
+      <DependentUpon>tfgCinPaddDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btón siSi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bton noNo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botón perfil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botón festival.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\claqueta-cine-22527.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btón críticas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botón guión.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botón perfiles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botón plan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha pequeña.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

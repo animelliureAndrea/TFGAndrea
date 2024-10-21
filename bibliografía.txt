@@ -1,0 +1,10 @@
+.net maui
+https://learn.microsoft.com/es-es/dotnet/maui/get-started/first-app?view=net-maui-8.0&tabs=vswin&pivots=devices-android
+https://dotnet.microsoft.com/es-es/learn/maui/first-app-tutorial/device-setup
+https://www.youtube.com/watch?v=zbP1i8U3UbA
+https://www.youtube.com/watch?v=pY3u5av2LCw
+
+info
+https://rootstack.com/es/blog/que-version-de-net-framework-es-mejor-para-aplicaciones-moviles
+https://keepcoding.io/blog/programar-aplicaciones-android-en-visual-studio/
+https://dotnet.microsoft.com/es-es/apps/mobile
